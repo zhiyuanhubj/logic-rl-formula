@@ -1,0 +1,101 @@
+{
+  "os":  "Linux-5.15.0-100-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.14",
+  "startedAt":  "2025-03-02T10:09:38.965113Z",
+  "args":  [
+    "--node-ip-address=172.17.0.3",
+    "--node-manager-port=39845",
+    "--object-store-name=/tmp/ray/session_2025-03-02_10-08-28_244962_353744/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-03-02_10-08-28_244962_353744/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=59147",
+    "--runtime-env-agent-port=47345",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=47345",
+    "--gcs-address=172.17.0.3:65030",
+    "--session-name=session_2025-03-02_10-08-28_244962_353744",
+    "--temp-dir=/tmp/ray",
+    "--webui=",
+    "--cluster-id=1953e0a195272aa96707a984899dba7d8a9085e7728e04fdab7f9358",
+    "--startup-token=128",
+    "--worker-launch-time-ms=1740910112228",
+    "--runtime-env-hash=-900561946"
+  ],
+  "program":  "/root/miniconda3/lib/python3.10/site-packages/ray/_private/workers/default_worker.py",
+  "git":  {
+    "remote":  "https://github.com/zhiyuanhubj/Logic-RL.git"
+  },
+  "email":  "zhiyuan.hu.bj@gmail.com",
+  "root":  "/mnt/data/Logic-RL-logic",
+  "host":  "eeaa4b15460a",
+  "executable":  "/root/miniconda3/bin/python3",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA A40",
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "3721784041472",
+      "used":  "3378595348480"
+    }
+  },
+  "memory":  {
+    "total":  "540843749376"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  128
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A40",
+      "memoryTotal":  "48305799168",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}
